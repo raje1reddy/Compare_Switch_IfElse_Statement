@@ -6,11 +6,11 @@ import static org.junit.Assert.*;
 
 
 public class CompareSwitchIfElseTest {
-
+    CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
 
     @Test
     public void weekDaySUN() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+       // CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("SUN");
         System.out.println(result);
         String expected = "SUN";
@@ -19,7 +19,7 @@ public class CompareSwitchIfElseTest {
     }
     @Test
     public void weekDayMON() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("MON");
         System.out.println(result);
         String expected = "MON";
@@ -28,7 +28,7 @@ public class CompareSwitchIfElseTest {
     }
     @Test
     public void weekDayTUE() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("TUE");
         System.out.println(result);
         String expected = "TUE";
@@ -37,7 +37,7 @@ public class CompareSwitchIfElseTest {
     }
     @Test
     public void weekDayWED() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("WED");
         System.out.println(result);
         String expected = "WED";
@@ -46,7 +46,7 @@ public class CompareSwitchIfElseTest {
     }
     @Test
     public void weekDayTHU() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("THU");
         System.out.println(result);
         String expected = "THU";
@@ -56,7 +56,7 @@ public class CompareSwitchIfElseTest {
 
     @Test
     public void weekDayFRI() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("FRI");
         System.out.println(result);
         String expected = "FRI";
@@ -66,7 +66,7 @@ public class CompareSwitchIfElseTest {
 
     @Test
     public void weekDay() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+        //CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("SAT");
         System.out.println(result);
         String expected = "SAT";
@@ -76,7 +76,7 @@ public class CompareSwitchIfElseTest {
 
     @Test
     public void weekDayNONE() {
-        CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
+       // CompareSwitchIfElse compareSwitchIfElse = new CompareSwitchIfElse();
         String result = compareSwitchIfElse.WeekDays("NONE");
         System.out.println(result);
         String expected = "NONE";
